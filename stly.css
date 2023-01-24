@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(pic1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#box{
+  width: 550px;
+  height: 387px;
+  
+  box-shadow: 0px 0px 5px grey;
+  background-color: white;
+  border-radius: 10px;
+}
+.row{
+  width: 100%;
+  margin: 1.9rem;
+  margin-left: 0;
+}
+.sub-but{
+  width: 100%;
+  padding: 1.1rem;
+  font-size: 1.1rem;
+  color: white;
+  border: none; /* remove it for click effect */ 
+  border-radius: 0px 0px 10px 10px;
+  background-color: #39b855;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+.sub-but:hover{
+  background-color: #10942d;
+}
+.dummyques{
+  padding-top: 20px;
+  text-align: center;
+}
+.optionpadding{
+  padding: 15px;;
+}
